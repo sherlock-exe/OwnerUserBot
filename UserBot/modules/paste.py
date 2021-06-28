@@ -8,7 +8,7 @@ import json
 import os
 from urllib.parse import urlparse
 from pyrogram import Client, filters
-from _pyrogram import app, CMD_HELP
+from UserBot import app, CMD_HELP
 from config import PREFIX
 
 CMD_HELP.update(
