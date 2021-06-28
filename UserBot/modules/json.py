@@ -1,5 +1,5 @@
 from pyrogram.types import *
-from _pyrogram import *
+from UserBot import *
 from pyrogram import *
 from config import *
 from os import *
