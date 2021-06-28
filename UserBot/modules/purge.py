@@ -8,7 +8,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import Message
 from inspect import getfullargspec
-from _pyrogram import app
+from UserBot import app
 from config import PREFIX
 
 async def edrep(msg: Message, **kwargs):
