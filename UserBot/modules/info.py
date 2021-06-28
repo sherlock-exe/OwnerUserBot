@@ -9,7 +9,7 @@ from pyrogram import filters
 from pyrogram.types import User, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.raw import functions
 from pyrogram.errors import PeerIdInvalid
-from _pyrogram import app
+from UserBot import app
 from config import PREFIX
 
 
