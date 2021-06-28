@@ -1,2 +1,1 @@
-pyrogram: python3 -m _pyrogram
-telethon: python3 -m _telethon
+pyrogram: python3 -m userbot
