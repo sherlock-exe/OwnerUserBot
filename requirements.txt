@@ -2,7 +2,6 @@ TgCrypto
 pyrogram
 pyromod
 cryptg
-telethon
 GitPython
 heroku3
 asyncio
