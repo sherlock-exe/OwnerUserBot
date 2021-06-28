@@ -9,7 +9,7 @@ import os
 import re
 import subprocess
 from io import StringIO
-from _pyrogram import app, CMD_HELP
+from UserBot import app, CMD_HELP
 from pyrogram import filters
 
 CMD_HELP.update(
