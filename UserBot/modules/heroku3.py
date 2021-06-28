@@ -12,8 +12,8 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from pyrogram import filters
-from _pyrogram import app, CMD_HELP
-from _pyrogram.helpers.pyrohelper import get_arg
+from UserBot import app, CMD_HELP
+from UserBot.helpers.pyrohelper import get_arg
 
 CMD_HELP.update(
     {
