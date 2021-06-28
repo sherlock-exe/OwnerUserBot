@@ -3,9 +3,9 @@
 # (C) 2021 Jayant Kageri
 
 from pyrogram import filters
-from _pyrogram import app, HELP, CMD_HELP
+from UserBot import app, HELP, CMD_HELP
 from config import PREFIX
-from _pyrogram.helpers.pyrohelper import get_arg
+from UserBot.helpers.pyrohelper import get_arg
 
 HELP.update(
     {
