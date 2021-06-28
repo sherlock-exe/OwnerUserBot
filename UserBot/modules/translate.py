@@ -6,7 +6,7 @@ from google_trans_new import google_translator
 from pyrogram import filters
 from inspect import getfullargspec
 from pyrogram.types import Message
-from _pyrogram import app
+from UserBot import app
 from config import PREFIX
 
 trl = google_translator()
