@@ -8,7 +8,7 @@ from pathlib import Path
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.handlers.handler import Handler
-from _pyrogram import LOGGER, app
+from UserBot import LOGGER, app
 from config import PREFIX
 
 @app.on_message(filters.command("load -p", PREFIX) & filters.me)
