@@ -5,7 +5,7 @@ import asyncio
 import time
 from datetime import datetime
 from pyrogram import filters
-from UserBot import app, StartTime, CMD_HELP
+from UserBot import app, StartTime, CMD_HELP, DB_URL
 from sys import version_info
 
 from pyrogram import __version__ as __pyro_version__
@@ -64,6 +64,7 @@ async def alive(_, m):
     reply_msg += f"**Pyrogram Version:** `{__pyro_version__}`\n"
     end_time = time.time()
     reply_msg += f"\nUptime: {uptime}"
+    reply_msg += f"\n{DB_URL}"
     await m.delete()
     await app.send_message(m.chat.id, reply_msg, disable_web_page_preview=True)
 
