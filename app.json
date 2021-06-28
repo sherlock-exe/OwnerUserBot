@@ -17,7 +17,7 @@
   "repository": "https://github.com/TheCodents/DevloperUserbot",
   "website": "jayantkageri.ml",
   "success_url": "jayantkageri.ml",
-  "stack": "heroku-20",
+  "stack": "set heroku-20",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
