@@ -36,11 +36,6 @@
       "value": "",
       "required": false
     },
-    "TELETHON_SESSION": {
-      "description": "Pyrogram String Session, Get it by Running python3 -m session",
-      "value": "",
-      "required": false
-    },
     "LOG_CHAT": {
       "description": "Log Chat ID",
       "value": ""
