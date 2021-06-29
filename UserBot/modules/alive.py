@@ -34,7 +34,7 @@ def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
     time_list = []
-    time_suffix_list = ["s", "m", "h", "days"]
+    time_suffix_list = ["Saniye", "Dakika", "Saat", "Gün"]
 
     while count < 4:
         count += 1
@@ -50,7 +50,7 @@ def get_readable_time(seconds: int) -> str:
         ping_time += time_list.pop() + ", "
 
     time_list.reverse()
-    ping_time += ":".join(time_list)
+    ping_time += " ".join(time_list)
 
     return ping_time
 
@@ -59,12 +59,11 @@ def get_readable_time(seconds: int) -> str:
 async def alive(_, m):
     start_time = time.time()
     uptime = get_readable_time((time.time() - StartTime))
-    reply_msg = f"**[Developer](https://github.com/TheCodents/DevelopersUserbot)**\n"
+    reply_msg = f"**[HydraUserBot](tg://t.me/ixelizm)**\n"
     reply_msg += f"**Python Version:** `{__python_version__}`\n"
     reply_msg += f"**Pyrogram Version:** `{__pyro_version__}`\n"
     end_time = time.time()
-    reply_msg += f"\nUptime: {uptime}"
-    reply_msg += f"\n{DB_URL}"
+    reply_msg += f"\nÇalışma Süresi: {uptime}"
     await m.delete()
     await app.send_message(m.chat.id, reply_msg, disable_web_page_preview=True)
 
