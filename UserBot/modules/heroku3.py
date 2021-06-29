@@ -25,7 +25,7 @@ CMD_HELP.update(
     }
 )
 
-UPSTREAM_REPO_URL = "https://github.com/Ribonney/OwnerUserBot"
+UPSTREAM_REPO_URL = "https://github.com/Ribonney/OwnerUserBot.git"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
