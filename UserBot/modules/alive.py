@@ -20,7 +20,7 @@ CMD_HELP.update(
   `ping -p` -> For Pinging Pyrogram
   `ping -t` -> For Pinging Telethon
 """
-    }
+   }
 )
 
 __major__ = 0
