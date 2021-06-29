@@ -5,7 +5,7 @@ cryptg
 GitPython
 heroku3
 asyncio
-aiohttp==3.6.2
+aiohttp>=3.7.4
 google_trans_new
 dnspython
 requests
